@@ -134,3 +134,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Pocketbase
+pb_data/*
+pocketbase.exe
+pocketbase_bin
