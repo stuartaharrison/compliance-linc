@@ -7,6 +7,8 @@ declare module "little-state-machine" {
 };
 
 declare global {
+    type FormSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl'
+    type FormTheme = 'primary' | 'secondary' | 'accent' | 'warning' | 'info' | 'success' | 'danger'
     type UserType = {
         id: string,
         collectionId: string,
